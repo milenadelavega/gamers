@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mapa del Tesoro</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <h1>Encuentra el tesoro</h1>
+    <div class="imgs">
+      <img src="images/treasuremap.png" width="400" height="400" id="map" draggable="false">
+    </div>
+
+    <p id="distance"></p>
+
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
+    <button onclick="mostrar()">¿Desea volver a jugar?</button>
+    <a href="/Index.html">Volver a la pagina principal</a>
+
+    <script type="text/javascript">
+      function mostrar(){
+        swal('¡Para volver a empezar presione F5!','','success');
+      }
+      
+    </script>
+    
+  
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  
+    <script src="helpers.js" charset="utf-8"></script>
+    <script src="gamer.js" charset="utf-8"></script>
+
+  </body>
+</html>
